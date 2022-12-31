@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyscm"
+description = "Learn how to use setuptools-scm for dynamic versioning."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "Ollie Bell", email="ollie.bell@arup.com"},
+]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+    "requests" 
+]
+dynamic = ["version"]
+
+[tool.setuptools_scm]
+write_to = "src/pyscm/_version.py"
+# version_scheme = "calver-by-date"
+# local_scheme = "no-local-version"
