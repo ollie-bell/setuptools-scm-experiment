@@ -1,3 +1,3 @@
-# pyscm
+# setuptools-scm-experiment
 
-Learn how to use setuptools-scm for dynamic versioning.
+Experiment with how to use setuptools-scm for dynamic versioning.
