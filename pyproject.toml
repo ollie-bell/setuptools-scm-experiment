@@ -6,9 +6,9 @@ build-backend = "setuptools.build_meta"
 name = "mypackage"
 description = "Experiment with how to use setuptools-scm for dynamic versioning."
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 authors = [
-    {name = "Ollie Bell", email="ollie.bell@arup.com"},
+    {name = "Ollie Bell", email="ollie.b@transitionzero.org"},
 ]
 classifiers = [
     "Operating System :: OS Independent",
