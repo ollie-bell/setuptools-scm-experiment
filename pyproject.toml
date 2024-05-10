@@ -20,4 +20,4 @@ dependencies = [
 dynamic = ["version"]
 
 [tool.setuptools_scm]
-write_to = "src/mypackage/_version.py"
+# write_to = "src/mypackage/_version.py"
